@@ -7,6 +7,7 @@
   --accent-color: #e7e9fc;
   --light-mode-color: #f4f4fd;
   --hero-section-color: #ffffff;
+  --hero-bg: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 
 body {
@@ -225,10 +226,13 @@ img {
   padding-bottom: 188px;
 
   background-color: var(--heading-text-color);
-  background-image: url(../images/hero/hero-bcg.jpg);
+  background-image: var(--hero-bg), url(../images/hero/hero-bcg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.hero-background {
 }
 
 .hero-title {
