@@ -282,7 +282,7 @@ img {
 
 .feauters-item {
   border-radius: 4px;
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .feauters-img {
@@ -313,7 +313,7 @@ img {
 }
 
 .services-list-item {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 /* -----------------TEAM SECTION-------------------- */
@@ -332,7 +332,7 @@ img {
 }
 
 .team-card {
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 
   background-color: var(--hero-section-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -387,7 +387,7 @@ img {
 }
 
 .customers-item {
-  flex-basis: calc((100%-120px) / 6);
+  flex-basis: calc((100% - 120px) / 6);
   height: 88px;
 }
 
@@ -510,6 +510,7 @@ img {
 .filter-btn:hover,
 .filter-btn:focus {
   border: var(--pressed-state-color);
+  border: 1px solid var(--pressed-state-color);
   background-color: var(--pressed-state-color);
   color: var(--hero-section-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
